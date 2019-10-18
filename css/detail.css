@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat";
+}
+
+header nav {
+  background-color: #3386ff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 180px;
+}
+
+header nav .brand {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffff;
+}
+
+header nav .search-input {
+  flex-grow: 1;
+  text-align: center;
+}
+
+header nav .search-input .search-bar {
+  height: 45px;
+  width: 600px;
+  padding: 20px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+}
+
+header nav .login-link li {
+  display: inline;
+  margin-left: 20px;
+  list-style: none;
+  font-size: 24px;
+  color: #ffff;
+  font-weight: 700;
+}
+
+header nav .login-link li a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+/*Body*/
+
+.body-container{
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 79%;
+}
+#detail{
+    margin-bottom: 7vh;
+    text-align: center;
+    align-items: center;
+    border-bottom: 3px solid black;
+}
+.row{
+    float: left;
+    margin-right: 7vh;
+}
+.a{
+    max-width: 30%;
+}
+.a img{
+    border: 2px solid black;
+}
+.b{
+    width: 60%;
+}
+#label, #harga, #desc{
+    margin-bottom: 3vh;
+}
+#addToCart{
+    margin-top: 1vh;
+    background-color: #3386ff;
+    padding: 2vh;
+    border-radius: 10px;
+    color: white;
+}
+#addToCart:hover{
+    background-color: white;
+    color: #3386ff;
+    box-shadow: 2px 2px 2px #3386ff;
+}
